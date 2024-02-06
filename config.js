@@ -13,7 +13,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51926933818", '𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁', true], //𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
+["51936994155", '𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁', true], //𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 ["51978420752"], 
 ["51980269579"],
 ["573112811966"],
@@ -23,6 +23,14 @@ global.owner = [
 
 global.mods = []
 global.prems = []
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+// ❰❰ RENDER ❱❱
+//Kurt18: Obtener el código QR por la URL del Hosting
+global.obtenerQrWeb = 0; //Solo valores: 1 o 0
+//Kurt18: Aplica para Host Render.com
+global.keepAliveRender = 0; //Solo valores: 1 o 0
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
@@ -42,7 +50,7 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 // Español 👉 es           
 // English 👉 en
 global.lenguajeGB = es
-global.mid = enDefault
+global.mid = esDefault
 global.version_language = '1.0'
 
 // [ES] > Si "default_language" esta vacío, su idioma predeterminado será Español o se usará el idioma que cada usuario haya seleccionado al momento de registrarse. 
@@ -108,7 +116,7 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51926933818", '𝗖𝗲𝗼 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1], 
+["51936994155", '𝗖𝗲𝗼 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1], 
 ["51980269579", '𝗖𝗼 𝗖𝗲𝗼 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1],  
 ["51978420752", '𝗖𝗼 𝗟𝗶𝗱𝗲𝗿 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1],
 ["5492915139790", '𝗗𝗲𝗰𝗮𝗻𝗮 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1]
@@ -140,12 +148,14 @@ global.fb = "https://www.instagram.com/team.hydra.sur"
 global.tk = "https://www.instagram.com/team.hydra.sur"
 global.ths = "https://www.instagram.com/team.hydra.sur"
 global.paypal = 'https://www.instagram.com/team.hydra.sur'
-global.asistencia = 'https://chat.whatsapp.com/I5fUSaJaTq07MUDpTA9fQE' //Contacto
+global.asistencia = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' //Contacto
+global.bot = 'wa.me/573112811966'
 
-global.nna = 'https://chat.whatsapp.com/I5fUSaJaTq07MUDpTA9fQE' // CANAL UPDATE
+
+global.nna = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // CANAL UPDATE
 global.nn2 = 'https://www.instagram.com/team.hydra.sur' // CANAL GataBot
 global.nna2 = 'https://www.instagram.com/team.hydra.sur' // Help
-global.nn = 'https://chat.whatsapp.com/I5fUSaJaTq07MUDpTA9fQE' // Grupo 1
+global.nn = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // Grupo 1
 global.nnn = 'https://www.instagram.com/team.hydra.sur' // Grupo 2
 global.nnnt = 'https://www.instagram.com/team.hydra.sur' // Grupo 3
 global.nnntt = 'https://www.instagram.com/team.hydra.sur' // Grupo 4
@@ -155,6 +165,11 @@ global.nnnttt2 = 'https://www.instagram.com/team.hydra.sur' // Grupo 7 COL
 global.nnnttt3 = 'https://www.instagram.com/team.hydra.sur' // Grupo 8 COL
 global.nnnttt4 = 'https://www.instagram.com/team.hydra.sur' // Grupo 9 COL
 global.nnnttt5 = 'https://www.instagram.com/team.hydra.sur' // A.T.M.M
+global.nnnttt6 = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // A.T.M.M
+global.channel1 = 'https://www.instagram.com/team.hydra.sur'
+global.channel2 = 'https://www.instagram.com/team.hydra.sur'
+global.channel3 = 'https://www.instagram.com/team.hydra.sur'
+// • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = ''
 global.resultado = rg
@@ -184,7 +199,7 @@ global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
-global.nomorown = "51926933818"
+global.nomorown = "519936994155"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
@@ -235,6 +250,7 @@ global.logogit = 'https://tinyurl.com/2qvl9vgs'
 // ❰ RANDOMS ❱
 global.welgata = [tk, ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb, tk, ths, asistencia]
 global.redesMenu = [nna, nn, nn2, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5, md, ig, paypal, yt, asistencia, fb, tk]
+global.accountsgb = [channel1, channel2, channel3, tk, ig, yt, paypal, fb, ths, md, nna, asistencia]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
@@ -282,7 +298,7 @@ message: {
 }}}
 
 
-global.multiplier = 70 // Cuanto más alto, más difícil subir de nivel 
+global.multiplier = 85 // Cuanto más alto, más difícil subir de nivel 
 
 //Emojis RPG - Referencias
 global.rpg = {
