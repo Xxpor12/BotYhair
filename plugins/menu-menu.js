@@ -103,6 +103,7 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║*💫➺ _${usedPrefix}instalarbot_
 *║*💫➺ _${usedPrefix}lideres_
 *║*💫➺ _${usedPrefix}velocidad_
+*║*💫➺ _${usedPrefix}cafirexos / 24/7 Team Hydra Bot_
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ REGLAS , LISTA , FICHA ≫ ══╗*
