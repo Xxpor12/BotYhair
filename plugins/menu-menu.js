@@ -210,6 +210,14 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║* 🔍➺ _${usedPrefix}letra | lirik *texto*_
 *║* 🔍➺ _${usedPrefix}ytsearch | yts *texto*_
 *║* 🔍➺ _${usedPrefix}wiki | wikipedia *texto*_
+*║* 🔍➺ _${usedPrefix}vegeta_
+*║* 🔍➺ _${usedPrefix}spiderman_
+*║* 🔍➺ _${usedPrefix}batman_
+*║* 🔍➺ _${usedPrefix}hellokitty_
+*║* 🔍➺ _${usedPrefix}cristiano_
+*║* 🔍➺ _${usedPrefix}pikachu_
+*║* 🔍➺ _${usedPrefix}lora_
+*║* 🔍➺ _${usedPrefix}charmander_
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ HERRAMIENTAS ≫ ══╗*
@@ -226,6 +234,7 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║* 🛠️ _${usedPrefix}morse decodificar *morse*_
 *║* 🛠️ _${usedPrefix}encuesta | poll *Motivo*_
 *║* 🛠️ _${usedPrefix}horario_
+*║* 🛠️ _${usedPrefix}clima_
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ FUNCION RPG ≫ ══╗*
