@@ -88,7 +88,7 @@ let user = global.db.data.users[m.sender]
 ┃ *RANGO:* ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *XP:* *${user.exp - min}/${xp}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+╰━━━〔 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁 〕━━━━━⬣
 
 *Te falta ${max - user.exp} de XP para subir de nivel*
 `.trim()
@@ -107,9 +107,9 @@ let user = global.db.data.users[m.sender]
 ┃ *RANGO* ${user.role}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *FECHA:* *${new Date().toLocaleString('id-ID')}*
-╰━━━〔 *𓃠 ${vs}* 〕━━━━━⬣
+╰━━━〔 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁 〕━━━━━⬣
 
-*_Cuanto más interactúes con GataBot-MD, mayor será tu nivel!!_*
+*_Cuanto más interactúes con Hydra Bot, mayor será tu nivel!!_*
 *_Actualiza tú rango con el comando ${usedPrefix}rol!!_*
 `.trim()
         try {
