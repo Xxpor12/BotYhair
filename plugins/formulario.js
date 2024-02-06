@@ -12,7 +12,8 @@ global.Ficha = `
 *DISPONIBILIDAD DE TIEMPO :*
 *EXP EN VV2 :*
 *EXP EN MAPA :*
+*JUGADOR DE PC O MOVIL :*
+*EN QUE MODO DESTACAS MAS:*
 
-
-*Nota : Recuerda Una Vez Hayas Pasado El Formulario Se Te Hara Prueba En Vv2 Si Mandas Ig O Tus Clips De Ahora Entras Directo*
+*Nota : 1 Vez Hayas Pasado El Formulario Manda Cap De Tu Perfil En Br Y Decla Mencionando A Cualquier Admin Menos El Bot*
 `;
