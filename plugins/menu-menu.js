@@ -122,6 +122,10 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║* 💻➺ _${usedPrefix}MixtoInterna6_
 *║* 💻➺ _${usedPrefix}ReglasApos_
 *║* 💻➺ _${usedPrefix}Ficha / Formulario Pa Entrar A Team_
+*║* 💻➺ _${usedPrefix}Nexterra_
+*║* 💻➺ _${usedPrefix}Bermuda_
+*║* 💻➺ _${usedPrefix}Kalahary_
+*║* 💻➺ _${usedPrefix}Alpes_
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ SPAM X EDITS ≫ ══╗*
