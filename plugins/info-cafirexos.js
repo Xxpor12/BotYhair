@@ -26,8 +26,8 @@ https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
 📧 *Correo*
 contacto@cafirexos.com
 
-🧑‍💻 *Contacto (Diego Flores)*
-https://wa.me/50497150165
+🧑‍💻 *Contacto (Team Hydra) Si Deseas Comprar Server 24/7*
+https://wa.me/51936994155
 `
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
 contextInfo: {
@@ -45,5 +45,5 @@ thumbnailUrl: 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci
 }, { mentions: m.sender })
 
 }
-handler.command = /^(cafirexos|prueba38)$/i
+handler.command = /^(cafirexos|cafi)$/i
 export default handler
