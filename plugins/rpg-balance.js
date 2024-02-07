@@ -9,11 +9,11 @@ await m.reply(`
 ┃ ${name}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃ *${global.db.data.users[who].limit} Diamantes* 💎
-╰━━━━〔 *𓃠 ${vs}* 〕━━━⬣\n\n*COMPRAR DIAMANTES CON EXP*
+╰━━━━〔 *𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁* 〕━━━⬣\n\n*COMPRAR DIAMANTES CON EXP*
 ${usedPrefix}buy *cantidad*
 ${usedPrefix}buyall *cantidad*
 
-*COMPRAR DIAMANTES CON GATACOINS*
+*COMPRAR DIAMANTES CON COINS*
 ${usedPrefix}buy2 *cantidad*
 ${usedPrefix}buyall2 *cantidad*`)
 
