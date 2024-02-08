@@ -3,9 +3,6 @@ const handler = async (m, {conn}) => {
 };
 handler.command = /^(Actividades4|Actividades4)$/i;
 export default handler;
-handler.admin = true
-handler.group = true
-handler.botAdmin = true
 
 global.Actividades4 = ` 
 *ACTIVIDADES HYDRA*
