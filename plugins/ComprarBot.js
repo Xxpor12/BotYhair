@@ -4,8 +4,8 @@ const handler = async (m, {conn}) => {
 handler.command = /^(ComprarBot|Comprar|comprar|ComprarBot)$/i;
 export default handler;
 
-global.ComprarBot = ` 〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
+global.ComprarBot = ` 𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
 
 HABLAR AL :
-wa.me/51926933818
+wa.me/519936994155
 `;
