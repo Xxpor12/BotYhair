@@ -83,7 +83,7 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
+let menu = `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
 
 *╔══ ≪ OWNER BOT ≫ ══╗*
 *║* 👤 Creador : Cristhofer
@@ -104,6 +104,8 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║*💫➺ _${usedPrefix}lideres_
 *║*💫➺ _${usedPrefix}velocidad_
 *║*💫➺ _${usedPrefix}cafirexos / 24/7 Team Hydra Bot_
+*║*💫➺ _${usedPrefix}Comprarbot_
+*║*💫➺ _${usedPrefix}Comprarbot2_
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ REGLAS , LISTA , FICHA ≫ ══╗*
@@ -265,7 +267,7 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║* ⚗️➺ _${usedPrefix}myns_
 *║* ⚗️➺ _${usedPrefix}unreg *numero de serie*_
 *║* ⚗️➺ _${usedPrefix}minardiamantes | minargemas_
-*║* ⚗️➺ _${usedPrefix}minargatacoins | minarcoins_
+*║* ⚗️➺ _${usedPrefix}minarcoins | minarcoins_
 *║* ⚗️➺ _${usedPrefix}minarexperiencia | minarexp_
 *║* ⚗️➺ _${usedPrefix}minar *:* minar2 *:* minar3_
 *║* ⚗️➺ _${usedPrefix}reclamar | regalo | claim_
@@ -318,7 +320,7 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║* 💎➺ _${usedPrefix}unete *enlace*_
 *║* 💎➺ _${usedPrefix}dardiamantes *cantidad*_
 *║* 💎➺ _${usedPrefix}darxp *cantidad*_
-*║* 💎➺ _${usedPrefix}dargatacoins *cantidad*_
+*║* 💎➺ _${usedPrefix}darcoins *cantidad*_
 *║* 💎➺ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
 *║* 💎➺ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
 *║* 💎➺ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
@@ -343,7 +345,7 @@ let menu = `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
 *║* 💎➺ _${usedPrefix}añadirxp *@tag cantidad*_
 *║* 💎➺ _${usedPrefix}añadircoins *@tag cantidad*_
 *╚══ ≪ •❈• ≫ ══╝*`.trim()
-await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
+await conn.sendFile(m.chat, gataImg.getRandom(), 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: '𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu.getRandom()}}})
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 	
 } catch (e) {
@@ -353,7 +355,6 @@ console.log(e)}}
 
 //handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
 handler.command = /^(menucompleto|menu|\?)$/i
-handler.register = true
 export default handler
 
 const more = String.fromCharCode(8206)
