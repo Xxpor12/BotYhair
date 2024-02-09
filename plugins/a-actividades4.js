@@ -5,12 +5,14 @@ handler.command = /^(Actividades4|Actividades4)$/i;
 export default handler;
 
 global.Actividades4 = ` 
-*ACTIVIDADES HYDRA*
+*_LISTA LONG TIME_*
 
-*Mod :* 
-*Jugadores :* 
-*Fecha :* */*
-*Hora :* * 🇵🇪  🇦🇷*
+*_FECHA : /_*
+
+*_MODALIDAD :_* 
+*_JUGADORES :_* 
+*_HORA : 🇵🇪  🇦🇷_*
+*_NOTA : PC / TAG_* 
 
 • 
 • 
@@ -26,13 +28,12 @@ global.Actividades4 = `
 
 •
 
-*"PC : "*
-*"TAG : "*
---------------‐-----‐------------------
-*Modalidad :* 
-*Jugadores :* 
-*Fecha :* */*
-*Hora :* *🇵🇪  🇦🇷*
+___________________________________
+
+*_MODALIDAD :_* 
+*_JUGADORES :_* 
+*_HORA : 🇵🇪  🇦🇷_*
+*_NOTA : PC / TAG_* 
 
 • 
 • 
@@ -49,13 +50,12 @@ global.Actividades4 = `
 
 •
 
-*"PC : "*
-*"TAG : "*
----------------‐-----‐------------------
-*Modalidad :* 
-*Jugadores :* 
-*Fecha :* */*
-*Hora :* *🇵🇪 🇦🇷*
+________________________________________
+
+*_MODALIDAD :_* 
+*_JUGADORES :_* 
+*_HORA : 🇵🇪  🇦🇷_*
+*_NOTA : PC / TAG_* 
 
 • 
 • 
@@ -71,6 +71,4 @@ global.Actividades4 = `
 
 •
 
-*"PC : "*
-*"TAG : "*
 `;
