@@ -3,8 +3,8 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let cafirexos = `
 _Optimice la implementación de *Team Hydra Bot* mediante la integración en un servicio de alojamiento de alto rendimiento._
 
-*Compatible con Team Hydra Bot*
-Aprovecha la compatibilidad y comienza usar Team Hydra Bot en servidores de alto rendimiento. El Staff de Team Hydra Bot y Cafirexos hacen posible que puedas ejecutar las funciones que tanto te gusta usar sintiendo una experiencia fluida y de calidad.
+*Compatible con Long Time Bot*
+Aprovecha la compatibilidad y comienza usar Long Time Bot en servidores de alto rendimiento. El Staff de Long Time Bot y Cafirexos hacen posible que puedas ejecutar las funciones que tanto te gusta usar sintiendo una experiencia fluida y de calidad.
 
 🔵 \`\`\`Información del Host\`\`\`
 
@@ -26,7 +26,7 @@ https://chat.whatsapp.com/FBtyc8Q5w2iJXVl5zGJdFJ
 📧 *Correo*
 contacto@cafirexos.com
 
-🧑‍💻 *Contacto (Team Hydra) Si Deseas Comprar Server 24/7*
+🧑‍💻 *Contacto (Long Time) Si Deseas Comprar Server 24/7*
 https://wa.me/51936994155
 `
 await conn.sendFile(m.chat, 'https://grxcwmcwbxwj.objectstorage.sa-saopaulo-1.oci.customer-oci.com/n/grxcwmcwbxwj/b/cafirexos/o/logos%2Flogo.png', 'fantasy.jpg', cafirexos.trim(), fkontak, true, {
@@ -36,7 +36,7 @@ contextInfo: {
 externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: false,
-title: `🔵 C A F I R E X O S 🔵`,
+title: `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`,
 body: `✅ Hosting de Calidad`,
 mediaType: 1,
 sourceUrl: accountsgb.getRandom(),
