@@ -5,14 +5,14 @@ handler.command = /^(ComprarBot2)$/i;
 export default handler;
 global.ComprarBot2 = `
 
-‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ *Compra con Nosotros*‎ ‎ ‎‎  ‎  *Optimus Bot 🤖*‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
+‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ *Compra con Nosotros*‎ ‎ ‎‎  ‎  *Long Time Bot*‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 
 ‎ ‎ ‎🫰 *4* soles por grupo 
 
 Adquiriendo el bot para grupos sería por ( *1 mes* ) de ahí tendrá que renovar
 
 
- 🫰 *22* Soles Via Termux
+ 🫰 *20* Soles Via Termux
 
  ‎Bot Perzonalizado A Tu Gusto , La Instalacion Es Via Apk Bot *Permanente*
 
@@ -23,5 +23,5 @@ Adquiriendo el bot para grupos sería por ( *1 mes* ) de ahí tendrá que renova
 
 • *Tiempo Max De Entrega 2 Dias*
 • *Fines De Semana Estoy Off*
-• *Pregunta Cuanto Es En Tu Pais Al Wa.me/51926933818*
+• *Pregunta Cuanto Es En Tu Pais Al Wa.me/51936994155*
 `;
