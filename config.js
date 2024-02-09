@@ -13,12 +13,11 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["51936994155", '𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁', true], //𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁
+["51936994155", '𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁', true], //𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
 ["51978420752"], 
 ["573112811966"],
-["5492915139790"],
-["51963181293"],
-["51928006719"]]
+["56942486851],
+["51963181293"]]
 
 global.mods = []
 global.prems = []
@@ -115,11 +114,10 @@ global.moment = moment
 // [ES] > Agregate a ti, colaboradores o ayudates, aparecerá en el comando de lista de contactos.
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
-["51936994155", '𝗖𝗲𝗼 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1],  
-["51978420752", '𝗖𝗼 𝗟𝗶𝗱𝗲𝗿 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1],
-["5492915139790", '𝗗𝗲𝗰𝗮𝗻𝗮 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮', 1]
-["51963181293", '𝗗𝗲𝗰𝗮𝗻𝗼 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 ', 1],
-["51928006719", '𝗗𝗲𝗰𝗮𝗻𝗮 𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝟮', 1]]
+["51936994155", '𝗖𝗲𝗼 𝗧𝗲𝗮𝗺 ', 1],  
+["51978420752", '𝗖𝗼 𝗟𝗶𝗱𝗲𝗿 𝗧𝗲𝗮𝗺 ', 1],
+["51963181293", '𝗗𝗲𝗰𝗮𝗻𝗼 𝗧𝗲𝗮𝗺  ', 1],
+["56942486851", '𝗗𝗲𝗰𝗮𝗻𝗮 𝗧𝗲𝗮𝗺  𝟮', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
@@ -127,46 +125,46 @@ global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se
 global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
-global.packname = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
-global.author = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
+global.packname = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
+global.author = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > CUENTAS E INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
 // MANTENGA ESTO SIN MODIFICAR, NOS ESFORZAMOS A DIARIO POR OFRECERLES UN BOT PARA LA COMUNIDAD, SEA AGRADECIDO 😉
 // [EN] > ACCOUNTS AND BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
-global.vs = "1.7.0"
-global.vsJB = "2.5"
-global.gt = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
+global.vs = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
+global.vsJB = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
+global.gt = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
 
-global.yt = "https://www.instagram.com/team.hydra.sur"
-global.yt2 = "https://www.instagram.com/team.hydra.sur"
-global.ig = "https://www.instagram.com/team.hydra.sur"
-global.md = "https://www.instagram.com/team.hydra.sur"
-global.fb = "https://www.instagram.com/team.hydra.sur"
-global.tk = "https://www.instagram.com/team.hydra.sur"
-global.ths = "https://www.instagram.com/team.hydra.sur"
-global.paypal = 'https://www.instagram.com/team.hydra.sur'
+global.yt = "https://www.instagram.com/long.mixto.fem"
+global.yt2 = "https://www.instagram.com/long.mixto.fem"
+global.ig = "https://www.instagram.com/long.mixto.fem"
+global.md = "https://www.instagram.com/long.mixto.fem"
+global.fb = "https://www.instagram.com/long.mixto.fem"
+global.tk = "https://www.instagram.com/long.mixto.fem"
+global.ths = "https://www.instagram.com/long.mixto.fem"
+global.paypal = 'https://www.instagram.com/long.mixto.fem'
 global.asistencia = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' //Contacto
 global.bot = 'wa.me/573112811966'
 
 
 global.nna = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // CANAL UPDATE
-global.nn2 = 'https://www.instagram.com/team.hydra.sur' // CANAL GataBot
-global.nna2 = 'https://www.instagram.com/team.hydra.sur' // Help
+global.nn2 = 'https://www.instagram.com/long.mixto.fem' // CANAL GataBot
+global.nna2 = 'https://www.instagram.com/long.mixto.fem' // Help
 global.nn = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // Grupo 1
-global.nnn = 'https://www.instagram.com/team.hydra.sur' // Grupo 2
-global.nnnt = 'https://www.instagram.com/team.hydra.sur' // Grupo 3
-global.nnntt = 'https://www.instagram.com/team.hydra.sur' // Grupo 4
-global.nnnttt = 'https://www.instagram.com/team.hydra.sur' // Grupo 5
-global.nnnttt1 = 'https://www.instagram.com/team.hydra.sur' // Grupo 6 COL
-global.nnnttt2 = 'https://www.instagram.com/team.hydra.sur' // Grupo 7 COL
-global.nnnttt3 = 'https://www.instagram.com/team.hydra.sur' // Grupo 8 COL
-global.nnnttt4 = 'https://www.instagram.com/team.hydra.sur' // Grupo 9 COL
-global.nnnttt5 = 'https://www.instagram.com/team.hydra.sur' // A.T.M.M
+global.nnn = 'https://www.instagram.com/long.mixto.fem' // Grupo 2
+global.nnnt = 'https://www.instagram.com/long.mixto.fem' // Grupo 3
+global.nnntt = 'https://www.instagram.com/long.mixto.fem' // Grupo 4
+global.nnnttt = 'https://www.instagram.com/long.mixto.fem' // Grupo 5
+global.nnnttt1 = 'https://www.instagram.com/long.mixto.fem' // Grupo 6 COL
+global.nnnttt2 = 'https://www.instagram.com/long.mixto.fem' // Grupo 7 COL
+global.nnnttt3 = 'https://www.instagram.com/long.mixto.fem' // Grupo 8 COL
+global.nnnttt4 = 'https://www.instagram.com/long.mixto.fem' // Grupo 9 COL
+global.nnnttt5 = 'https://www.instagram.com/long.mixto.femr' // A.T.M.M
 global.nnnttt6 = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // A.T.M.M
-global.channel1 = 'https://www.instagram.com/team.hydra.sur'
-global.channel2 = 'https://www.instagram.com/team.hydra.sur'
-global.channel3 = 'https://www.instagram.com/team.hydra.sur'
+global.channel1 = 'https://www.instagram.com/long.mixto.fem'
+global.channel2 = 'https://www.instagram.com/long.mixto.fem'
+global.channel3 = 'https://www.instagram.com/long.mixto.fem'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = ''
@@ -191,13 +189,13 @@ global.eg = ''
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
-global.igfg = "𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁"
+global.wm = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
+global.igfg = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
 global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
-global.nomorown = "519936994155"
+global.nomorown = "51936994155"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
