@@ -15,7 +15,7 @@ let r2es = '';
 if (d2ata.urls && d2ata.urls.length > 0) {
 r2es = `${d2ata.urls[0]?.hd || d2ata.urls[1]?.sd || ''}`
 }
-conn.sendFile(m.chat, r2es, 'error.mp4', `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁`, m);
+conn.sendFile(m.chat, r2es, 'error.mp4', `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`, m);
 } catch (err1) {
 try {
 const req = await igeh(args[0])
@@ -26,29 +26,29 @@ const Rres = await fetch(`https://api.lolhuman.xyz/api/facebook?apikey=${lolkeys
 const Jjson = await Rres.json();
 let VIDEO = Jjson.result[0];
 if (VIDEO == '' || !VIDEO || VIDEO == null) VIDEO = Jjson.result[1];
-conn.sendFile(m.chat, VIDEO, 'error.mp4', `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁`, m);
+conn.sendFile(m.chat, VIDEO, 'error.mp4', `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`, m);
 } catch (err2) {
 try {
 const ress = await fg.fbdl(args[0]);
 const urll = await ress.data[0].url;
-await conn.sendFile(m.chat, urll, 'error.mp4', `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁`, m);
+await conn.sendFile(m.chat, urll, 'error.mp4', `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`, m);
 } catch (err3) {
 try {
 const res = await fbDownloader(args[0]);
 for (const result of res.download) {
 const ur = result.url;
-await conn.sendFile(m.chat, ur, 'error.mp4', `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁`, m);
+await conn.sendFile(m.chat, ur, 'error.mp4', `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`, m);
 }
 } catch (err4) {
 try {
 const res3 = await fetch(`https://latam-api.vercel.app/api/facebookdl?apikey=nekosmic&q=${args[0]}`);
 const json = await res3.json();
 const url3 = await json.video;
-await conn.sendFile(m.chat, url3, 'error.mp4', `𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁`, m);
+await conn.sendFile(m.chat, url3, 'error.mp4', `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`, m);
 } catch (err5) {
 try {
 const {result} = await facebookdl(args[0]).catch(async (_) => await facebookdlv2(args[0])).catch(async (_) => await savefrom(args[0]));
-for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, `✅ 𝙑𝙄𝘿𝙀𝙊 𝘿𝙀 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆\n${wm}`, m);
+for (const {url, isVideo} of result.reverse()) await conn.sendFile(m.chat, url, `facebook.${!isVideo ? 'bin' : 'mp4'}`, `✅ 𝙑𝙄𝘿𝙀𝙊 𝘿𝙀 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆\n𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁`, m);
 } catch (err6) {
 await m.reply(`${lenguajeGB['smsAvisoFG']()}𝘼𝙇𝙂𝙊 𝙎𝘼𝙇𝙄𝙊 𝙈𝘼𝙇, 𝙍𝙀𝘾𝙐𝙀𝙍𝘿𝙀 𝙐𝙎𝘼𝙍 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 𝙑𝘼𝙇𝙄𝘿𝙊 𝘿𝙀 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆`)
 handler.limit = 0
