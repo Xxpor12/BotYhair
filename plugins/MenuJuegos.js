@@ -20,7 +20,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
 *╔══ ≪ JUEGOS ≫ ══╗*
-*║* 🎡➺ _${usedPrefix}FrasesAnuel_
 *║* 🎡➺ _${usedPrefix}Abrazo_
 *║* 🎡➺ _${usedPrefix}Cumple_
 *║* 🎡➺ _${usedPrefix}Cuando_
