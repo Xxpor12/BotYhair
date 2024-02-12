@@ -137,6 +137,13 @@ let menu = `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
 *║* 👤➺ _${usedPrefix}DriveEdits / Recursos_
 *╚══ ≪ •❈• ≫ ══╝*
 
+*╔══ ≪ FRASES CANCIONES ≫ ══╗*
+*║* 💲➺ _${usedPrefix}Anuel / Anuel Aa_
+*║* 💲➺ _${usedPrefix}Bunny / Bad Bunny_
+*║* 💲➺ _${usedPrefix}Drago / Gabriel Drago_
+*║* 💲➺ _${usedPrefix}Feid / Ferxxo_
+*╚══ ≪ •❈• ≫ ══╝*
+
 *╔══ ≪ MENUS SECUNDARIOS ≫ ══╗*
 *║* 🎡➺ _${usedPrefix}MenuJuegos_
 *║* 🚀➺ _${usedPrefix}MenuDescargas_
