@@ -1,4 +1,4 @@
-import {generateWAMessageFromContent} from '@whiskeysockets/baileys';
+let generateWAMessageFromContent = (await import(global.baileys)).default
 import * as fs from 'fs';
 const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
   try {
@@ -18,7 +18,7 @@ const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
     const isMedia = /image|video|sticker|audio/.test(mime);
     const more = String.fromCharCode(8206);
     const masss = more.repeat(850);
-    const htextos = `${text ? text : '𝗧𝗲𝗮𝗺 𝗛𝘆𝗱𝗿𝗮 𝗕𝗼𝘁'}`;
+    const htextos = `${text ? text : '*Necesitas Escribir Nuevamente El Texto P*'}`;
     if ((isMedia && quoted.mtype === 'imageMessage') && htextos) {
       var mediax = await quoted.download?.();
       conn.sendMessage(m.chat, {image: mediax, mentions: users, caption: htextos, mentions: users}, {quoted: m});
@@ -32,11 +32,11 @@ const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
       var mediax = await quoted.download?.();
       conn.sendMessage(m.chat, {sticker: mediax, mentions: users}, {quoted: m});
     } else {
-      await conn.relayMessage(m.chat, {extendedTextMessage: {text: `${masss}\n${htextos}\n`, ...{contextInfo: {mentionedJid: users, externalAdReply: {thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/LILrwBpgQYQ5leRfcBNwyS'}}}}}, {});
+      await conn.relayMessage(m.chat, {extendedTextMessage: {text: `${masss}\n${htextos}\n`, ...{contextInfo: {mentionedJid: users, externalAdReply: {thumbnail: imagen1, sourceUrl: md}}}}}, {});
     }
   }
 };
-handler.command = /^(hidetag|notificar|notify|aviso|noti)$/i;
-handler.group = true;
-handler.admin = true;
-export default handler;
+handler.command = /^(hidetag|notificar|notify|viso|aviso)$/i
+handler.group = true
+handler.admin = true
+export default handler
