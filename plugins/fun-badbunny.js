@@ -7,9 +7,8 @@ conn.reply(m.chat,`╭━━━━━[ *𝗧𝗶𝗺𝗲 𝗟𝗼𝗻𝗴 𝗕�
 ], m,)*/
 
 handler.help = ['bunny']
-handler.tags = ['fun']
+handler.tags = ['bunny']
 handler.command = /^bunny/i
-handler.fail = null
 export default handler
 
 function pickRandom(list) {
