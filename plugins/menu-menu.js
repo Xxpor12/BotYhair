@@ -139,9 +139,9 @@ let menu = `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
 
 *╔══ ≪ FRASES CANCIONES ≫ ══╗*
 *║* 💲➺ _${usedPrefix}Anuel / Anuel Aa_
-*║* 💲➺ _${usedPrefix}Bunny / Bad Bunny_
+*║* 💲➺ _${usedPrefix}Conejo / Bad Bunny_
 *║* 💲➺ _${usedPrefix}Drago / Gabriel Drago_
-*║* 💲➺ _${usedPrefix}Feid / Ferxxo_
+*║* 💲➺ _${usedPrefix}Ferxxo / Feid_
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ MENUS SECUNDARIOS ≫ ══╗*
