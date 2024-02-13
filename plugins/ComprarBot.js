@@ -7,5 +7,5 @@ export default handler;
 global.ComprarBot = ` 𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
 
 HABLAR AL :
-wa.me/519936994155
+wa.me/51936994155
 `;
