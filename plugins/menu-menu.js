@@ -128,6 +128,7 @@ let menu = `𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
 *║* 💻➺ _${usedPrefix}Bermuda_
 *║* 💻➺ _${usedPrefix}Kalahary_
 *║* 💻➺ _${usedPrefix}Alpes_
+*║* 💻➺ _${usedPrefix}AgendaSemanal_
 *╚══ ≪ •❈• ≫ ══╝*
 
 *╔══ ≪ SPAM X EDITS ≫ ══╗*
