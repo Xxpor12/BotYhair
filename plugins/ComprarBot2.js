@@ -7,7 +7,7 @@ global.ComprarBot2 = `
 
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ *Compra con Nosotros*‎ ‎ ‎‎  ‎  *Long Time Bot*‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 
-‎ ‎ ‎🫰 *6* soles por grupo 
+‎ ‎ ‎🫰 *10* 2 soles por grupo 
 
 Adquiriendo el bot para grupos sería por ( *1 mes* ) de ahí tendrá que renovar
 
