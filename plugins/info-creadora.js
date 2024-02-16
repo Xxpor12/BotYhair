@@ -7,12 +7,8 @@ try{
 let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let pp = gataImg.getRandom()	
-const cat = `*Hola Si Deseas Hablarle A los Lideres Y Ceos Del Team Hydra Estos Son Sus Numeros :* 
-*1 :* +51 936 994 155 *Fundador Long Time*
-*3 :* +51 978 420 752 *Co Lider Long Time*
-*3 :* +51 963 181 293 *Lider Long Time*
-*4 :* +56 9 4248 6851 *Decana Long Timr*
-
+const cat = `*Deseas Comprar Un Bot 24/7 Para Tu Grupo ?*
+*Escribe Al : +51 936 994 155*
 `
 let biografiaBot = await conn.fetchStatus(conn.user.jid.split('@')[0] + '@s.whatsapp.net').catch(_ => 'undefined')
 let bioBot = biografiaBot.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto1() : desc2}`
@@ -43,7 +39,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}} 
 handler.help = ['owner', 'creator']
 handler.tags = ['info']
-handler.command = /^(owner|lideres|propietario|dueño|dueña|propietaria|dueño|creadora|creador|contactos?|contacts?)$/i
+handler.command = /^(owner|creador|propietario|dueño|dueña|propietaria|dueño|creadora|creador|contactos?|contacts?)$/i
 
 export default handler
 
