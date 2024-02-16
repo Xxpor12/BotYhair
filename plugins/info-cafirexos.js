@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let cafirexos = `
-_Optimice la implementación de *Team Hydra Bot* mediante la integración en un servicio de alojamiento de alto rendimiento._
+_Optimice la implementación de *Long Time Bot* mediante la integración en un servicio de alojamiento de alto rendimiento._
 
 *Compatible con Long Time Bot*
 Aprovecha la compatibilidad y comienza usar Long Time Bot en servidores de alto rendimiento. El Staff de Long Time Bot y Cafirexos hacen posible que puedas ejecutar las funciones que tanto te gusta usar sintiendo una experiencia fluida y de calidad.
