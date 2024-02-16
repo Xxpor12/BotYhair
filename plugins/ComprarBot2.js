@@ -7,12 +7,12 @@ global.ComprarBot2 = `
 
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ *Compra con Nosotros*‎ ‎ ‎‎  ‎  *Long Time Bot*‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎
 
-‎ ‎ ‎🫰 *4* soles por grupo 
+‎ ‎ ‎🫰 *6* soles por grupo 
 
 Adquiriendo el bot para grupos sería por ( *1 mes* ) de ahí tendrá que renovar
 
 
- 🫰 *20* Soles Via Termux
+ 🫰 *18* Soles Via Termux
 
  ‎Bot Perzonalizado A Tu Gusto , La Instalacion Es Via Apk Bot *Permanente*
 
