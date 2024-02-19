@@ -1,4 +1,4 @@
-import { watchFile, unwatchFile } from "fs"
+Zimport { watchFile, unwatchFile } from "fs"
 import chalk from "chalk"
 import { fileURLToPath } from "url"
 import fs from "fs"
@@ -14,8 +14,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
 ["51936994155", '𝗬𝗵𝗮𝗶𝗿 𝗖𝗲𝗼', true], //𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁
-["51978420752", '𝗥𝗼𝗺𝗶𝗻𝗮 𝗖𝗼 𝗟𝗶𝗱𝗲𝗿', true], 
-["51902491284", '𝗩𝗮𝗹𝗲 𝗗𝗲𝗰𝗮𝗻𝗮', true], 
+["51978420752", '𝗥𝗼𝗺𝗶𝗻𝗮 𝗖𝗼 𝗟𝗶𝗱𝗲𝗿', true],  
 ["56942486851", '𝗣𝗮𝘂 𝗗𝗲𝗰𝗮𝗻𝗮', true], 
 ["51963181293", '𝗔𝗮𝗿𝗼𝗻 𝗟𝗶𝗱𝗲𝗿', true], 
 ["573112811966"]]
@@ -116,8 +115,7 @@ global.moment = moment
 // [EN] > Adding yourself, collaborators or helpers will appear in the contact list command.
 global.official = [ // Agregate si eres Owner
 ["51936994155", '𝗬𝗵𝗮𝗶𝗿 𝗖𝗲𝗼 ', 1],
-["51978420752", '𝗥𝗼𝗺𝗶𝗻𝗮 𝗖𝗼 𝗟𝗶𝗱𝗲𝗿 ', 1],  
-["51902491284", '𝗩𝗮𝗹𝗲 𝗗𝗲𝗰𝗮𝗻𝗮 ', 1],  
+["51978420752", '𝗥𝗼𝗺𝗶𝗻𝗮 𝗖𝗼 𝗟𝗶𝗱𝗲𝗿 ', 1],   
 ["56942486851", '𝗣𝗮𝘂 𝗗𝗲𝗰𝗮𝗻𝗮 ', 1],  
 ["51963181293", '𝗔𝗮𝗿𝗼𝗻 𝗟𝗶𝗱𝗲𝗿 ', 1]]
 
@@ -138,35 +136,35 @@ global.vs = "1.7.0"
 global.vsJB = "2.5"
 global.gt = "𝗟𝗼𝗻𝗴 𝗧𝗶𝗺𝗲 𝗕𝗼𝘁"
 
-global.yt = "https://www.instagram.com/long.mixto.fem"
-global.yt2 = "https://www.instagram.com/long.mixto.fem"
-global.ig = "https://www.instagram.com/long.mixto.fem"
-global.md = "https://www.instagram.com/long.mixto.fem"
-global.fb = "https://www.instagram.com/long.mixto.fem"
-global.tk = "https://www.instagram.com/long.mixto.fem"
-global.ths = "https://www.instagram.com/long.mixto.fem"
-global.paypal = 'https://www.instagram.com/long.mixto.fem'
-global.asistencia = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' //Contacto
+global.yt = "https://www.instagram.com/lt.mixto"
+global.yt2 = "https://www.instagram.com/lt.mixto"
+global.ig = "https://www.instagram.com/lt.mixto"
+global.md = "https://www.instagram.com/lt.mixto"
+global.fb = "https://www.instagram.com/lt.mixto"
+global.tk = "https://www.instagram.com/lt.mixto"
+global.ths = "https://www.instagram.com/lt.mixto"
+global.paypal = 'https://www.instagram.com/lt.mixto'
+global.asistencia = 'https://www.instagram.com/lt.mixto' //Contacto
 global.bot = 'wa.me/573112811966'
 
 
-global.nna = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // CANAL UPDATE
-global.nn2 = 'https://www.instagram.com/long.mixto.fem' // CANAL GataBot
-global.nna2 = 'https://www.instagram.com/long.mixto.fem' // Help
-global.nn = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // Grupo 1
-global.nnn = 'https://www.instagram.com/long.mixto.fem' // Grupo 2
-global.nnnt = 'https://www.instagram.com/long.mixto.fem' // Grupo 3
-global.nnntt = 'https://www.instagram.com/long.mixto.fem' // Grupo 4
-global.nnnttt = 'https://www.instagram.com/long.mixto.fem' // Grupo 5
-global.nnnttt1 = 'https://www.instagram.com/long.mixto.fem' // Grupo 6 COL
-global.nnnttt2 = 'https://www.instagram.com/long.mixto.fem' // Grupo 7 COL
-global.nnnttt3 = 'https://www.instagram.com/long.mixto.fem' // Grupo 8 COL
-global.nnnttt4 = 'https://www.instagram.com/long.mixto.fem' // Grupo 9 COL
-global.nnnttt5 = 'https://www.instagram.com/long.mixto.femr' // A.T.M.M
-global.nnnttt6 = 'https://chat.whatsapp.com/LILrwBpgQYQ5leRfcBNwyS' // A.T.M.M
-global.channel1 = 'https://www.instagram.com/long.mixto.fem'
-global.channel2 = 'https://www.instagram.com/long.mixto.fem'
-global.channel3 = 'https://www.instagram.com/long.mixto.fem'
+global.nna = 'https://www.instagram.com/lt.mixto' // CANAL UPDATE
+global.nn2 = 'https://www.instagram.com/lt.mixto' // CANAL GataBot
+global.nna2 = 'https://www.instagram.com/lt.mixto' // Help
+global.nn = 'https://www.instagram.com/lt.mixto' // Grupo 1
+global.nnn = 'https://www.instagram.com/lt.mixto' // Grupo 2
+global.nnnt = 'https://www.instagram.com/lt.mixto' // Grupo 3
+global.nnntt = 'https://www.instagram.com/lt.mixto' // Grupo 4
+global.nnnttt = 'https://www.instagram.com/lt.mixto' // Grupo 5
+global.nnnttt1 = 'https://www.instagram.com/lt.mixto' // Grupo 6 COL
+global.nnnttt2 = 'https://www.instagram.com/lt.mixto' // Grupo 7 COL
+global.nnnttt3 = 'https://www.instagram.com/lt.mixto' // Grupo 8 COL
+global.nnnttt4 = 'https://www.instagram.com/lt.mixto' // Grupo 9 COL
+global.nnnttt5 = 'https://www.instagram.com/lt.mixto' // A.T.M.M
+global.nnnttt6 = 'https://www.instagram.com/lt.mixto' // A.T.M.M
+global.channel1 = 'https://www.instagram.com/lt.mixto'
+global.channel2 = 'https://www.instagram.com/lt.mixto'
+global.channel3 = 'https://www.instagram.com/lt.mixto'
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.rg = ''
